@@ -87,7 +87,7 @@ var friendList= ["anmol","aditya","kumar","vivek"]
  
  //********************************//
  
- //Creating key as an iterator
+ //Creating key as an iterator with object
  var user= {
  "name":"aniket",
 "age":21,
@@ -99,3 +99,20 @@ alert(user[x])
 }
 
 //********************************//
+
+//Creating key as an iterator with array
+ var user= [{
+ 		"name":"aniket",
+		"age":21,
+		"number":56656565},
+	{
+ 		"name":"anmol",
+		"age":21,
+		"number":65888}	]
+for(x in user){
+		alert(x)
+		alert(user[x].name)
+	}
+	
+//********************************//
+
