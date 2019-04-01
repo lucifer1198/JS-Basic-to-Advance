@@ -1,0 +1,55 @@
+// Function for Login check in JSON Array
+
+var users = [ {
+			"email":"aniket@edwisor.com",
+			"password": "1"
+		},
+				{
+			"email":"anmol@edwisor.com",
+			"password": "2"
+		},
+				{
+			"email":"vivek@edwisor.com",
+			"password": "3"
+		} ] //end users array
+
+var checkLogin = function (email,password,allUsers)
+{
+	var isUserFound = false
+	var passwordCorrect = false
+
+for (var currentUser in allUsers)
+{
+	console.log(allUsers[currentUser])
+  	if(allUsers[currentUser]["email"] == email)
+  		{
+  			if(allUsers[currentUser]["password"] == password)
+  				{
+  					isUserFound = true;
+  					passwordCorrect = true;
+  					break;
+  				}else{
+  					isUserFound = true;
+  					passwordCorrect = false;
+  					break;
+  				}
+  		}else{
+  			isUserFound = false;
+  	}
+}// end of for in loop
+
+if(isUserFound == true && passwordCorrect == true){
+alert("You are logged in.")
+}else if(isUserFound == true && passwordCorrect == false) {
+alert("You have provided incorrect password.")
+}else {
+alert("No User with this E-Mail found.")
+}
+
+}// end check login
+
+var email = window.prompt("Enter your email")
+var password = window.prompt("Enter your password")
+checkLogin(email,password,users)
+
+//end a sample login function
