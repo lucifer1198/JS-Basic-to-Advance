@@ -1,4 +1,7 @@
 //********************************//
+
+//Simple Ternary Operator
+
 var isTopper= false
 var marksObtained= window.prompt('Enter the Marks obtained: ');
 
@@ -15,14 +18,14 @@ var isTopper = (percentage > 90) ? true : false
 alert(isTopper)
 }
 
-//********************************//
+//Ternary Example
 
 var a=10;
 var b= 500;
 var result= a>b ? true: false;
 alert(result);
 
-//********************************//
+//Switch Statements
 
 var grade= window.prompt("Enter your Grade:")
 alert(grade)
@@ -49,7 +52,7 @@ switch(convert)
  	alert("Wrong Input")
  }
  
- //********************************//
+ //Array & For Loop
 
  var fruits= ["Mango","Orange","Carrot","Banana"]
  
@@ -58,7 +61,7 @@ switch(convert)
  alert(fruits[i])
  }
  
- //********************************//
+ //While Loop
 
  var i=5
  while(i>0 && i<=5)
@@ -66,8 +69,6 @@ switch(convert)
  alert(i)
  i--
  }
- 
- //********************************//
   
 //Use of For loop
 var searchFriend=window.prompt("Search for the position of your friend:") 
@@ -85,9 +86,8 @@ var friendList= ["anmol","aditya","kumar","vivek"]
 		 }
  }
  
- //********************************//
- 
  //Creating key as an iterator with object
+ 
  var user= {
  "name":"aniket",
 "age":21,
@@ -98,9 +98,8 @@ for(x in user)
 alert(user[x])
 }
 
-//********************************//
-
 //Creating key as an iterator with array
+
  var user= [{
  		"name":"aniket",
 		"age":21,
@@ -114,5 +113,27 @@ for(x in user){
 		alert(user[x].name)
 	}
 	
-//********************************//
+//Functions
 
+function add(x,y)
+{
+x=2;
+y=3;
+++x
+return x++
+}
+
+var summation = add( 0, )
+alert(summation)
+
+//Functions
+function generateEmail(name,message)
+{
+var generateMessage= "Hi, "+name+"\n"+"Message: "+message+" @Copyright to aniket"
+return generateMessage
+}
+
+var result = generateEmail("Aniket","How are you?")
+alert(result)
+
+//************************************************//
