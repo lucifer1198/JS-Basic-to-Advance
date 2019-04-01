@@ -1,0 +1,70 @@
+//********************************//
+var isTopper= false
+var marksObtained= window.prompt('Enter the Marks obtained: ');
+
+if(marksObtained == undefined || marksObtained == null || marksObtained == '')
+	alert('Invalid Input')
+else if(marksObtained < 0 || marksObtained > 100)
+	alert('Enter the Marks between 0-100 only')
+else
+{
+marksObtained= Number(marksObtained)
+var totalMarks = 100
+var percentage= (marksObtained / totalMarks) * 100
+var isTopper = (percentage > 90) ? true : false
+alert(isTopper)
+}
+
+//********************************//
+
+var a=10;
+var b= 500;
+var result= a>b ? true: false;
+alert(result);
+
+//********************************//
+
+var grade= window.prompt("Enter your Grade:")
+alert(grade)
+
+var convert= grade.toUpperCase()
+
+var result
+
+switch(convert)
+{
+	case 'A' :
+  alert("Excellent")
+ break
+ 
+	case 'B' :
+  alert("Very Good")
+ break
+ 
+ 	case 'C' :
+  alert("Good")
+ break
+ 
+ default:
+ 	alert("Wrong Input")
+ }
+ 
+ //********************************//
+
+ var fruits= ["Mango","Orange","Carrot","Banana"]
+ 
+ for(i=0; i < fruits.length; i++)
+ {
+ alert(fruits[i])
+ }
+ 
+ //********************************//
+
+ var i=5
+ while(i>0 && i<=5)
+ {
+ alert(i)
+ i--
+ }
+ 
+ //********************************//
