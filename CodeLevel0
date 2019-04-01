@@ -68,3 +68,34 @@ switch(convert)
  }
  
  //********************************//
+  
+//Use of For loop
+var searchFriend=window.prompt("Search for the position of your friend:") 
+var friendList= ["anmol","aditya","kumar","vivek"]
+ 
+ for(i=0; i < friendList.length; i++)
+ {
+ 	if(friendList[i]==searchFriend)
+ 		{
+ 			alert("The position of your friend"+" "+friendList[i]+" "+"is:"+" "+(Number(i)+1))
+ 			break
+ 		}
+ 		else{
+    break
+		 }
+ }
+ 
+ //********************************//
+ 
+ //Creating key as an iterator
+ var user= {
+ "name":"aniket",
+"age":21,
+"number":56656565}
+
+for(x in user)
+{
+alert(user[x])
+}
+
+//********************************//
