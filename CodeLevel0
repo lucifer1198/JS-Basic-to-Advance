@@ -136,4 +136,32 @@ return generateMessage
 var result = generateEmail("Aniket","How are you?")
 alert(result)
 
+//************ Special Function *******************//
+
+var stringInput1 = "The sun rises in the east"
+var stringInput2 = "We know that, :p"
+
+// length use
+alert(stringInput.length)
+
+//indexOf use
+alert(stringInput.indexOf(""))
+
+// replace use
+alert(stringInput.replace("sun","moon"))
+
+//toUpperCase Use
+alert(stringInput.toUpperCase())
+
+//toLowerCase Use
+alert(stringInput.toLowerCase())
+
+// concat use
+alert(stringInput1.concat("\n"+stringInput2))
+
+// Split Use
+splitArray = stringInput1.split(" ")
+alert(splitArray)
+alert(Array.isArray(splitArray))
+
 //************************************************//
