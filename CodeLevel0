@@ -164,4 +164,74 @@ splitArray = stringInput1.split(" ")
 alert(splitArray)
 alert(Array.isArray(splitArray))
 
+//************ Special Function *******************//
+
+/* array to toString
+
+var vegetables = ["carrot","brinjal"]
+var convertedType= vegetables.toString()
+alert(convertedType)
+alert(typeof(convertedType))
+
+*/
+
+/* push & pop (end of the array)
+
+var vegetables = ["carrot","brinjal"]
+var pushOp= vegetables.push("ginger")
+alert(vegetables)
+var popOp= vegetables.pop()
+alert(vegetables)
+
+*/
+
+/* shift & unshift (beginning of the array)
+
+var vegetables = ["carrot","brinjal"]
+var shiftOp= vegetables.shift()
+alert(vegetables)
+var unshiftOp= vegetables.unshift("potato")
+alert(vegetables)
+
+*/
+
+/* Changing element at an index
+
+var vegetables = ["carrot","brinjal"]
+vegetables[1]="potato"
+alert(vegetables)
+
+*/
+
+/* deleting element at an index
+
+var vegetables = ["carrot","brinjal"]
+delete vegetables[1]
+alert(vegetables)
+
+*/
+
+/* merging two arrays using concat
+
+var vegetables = ["carrot","brinjal"] 
+var fruits = ["apple","banana"]
+var number = [1,2]
+alert(vegetables.concat(number))
+console.log(vegetables)
+
+*/
+
+/* date methods
+
+var today= new Date(Date.now())
+alert(today)
+
+var someDay= new Date("1998-01-05")
+alert(someDay)
+alert(someDay.getDate())
+alert(someDay.getDay())
+alert(someDay.getFullYear())
+
+*/
+
 //************************************************//
