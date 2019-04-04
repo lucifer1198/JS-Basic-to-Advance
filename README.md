@@ -1,7 +1,7 @@
 # JS-Codes
 
-**\|The repository contains the JS code from level 0 to level 100. 
-More codes will be committed from time to time for your help.\|**
+**\||||The repository contains the JS code from level 0 to level 100. 
+More codes will be committed from time to time for your help.\||||**
 
    *repository introduces you to the modern web application development 
    and then takes you on a journey through the javascript language 
