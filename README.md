@@ -28,5 +28,5 @@ More codes will be committed from time to time for your help.**
 
   *Learn to deploy your application on AWS ec2, save files in S3 and then configure your domain using route 53.
   
-  :tada :fireworks
+  :tada: :fireworks:
 
