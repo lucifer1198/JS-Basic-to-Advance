@@ -1,0 +1,88 @@
+// Block Scope & let keyword
+/* 
+
+let x=1
+for(let x=0; x<10;x++)
+{
+	console.log(x)	
+}
+console.log("x="+x)
+
+*/
+  
+// Const Keyword
+/*
+const discountPercentage= 50;
+discountPercentage=40;
+
+console.log(discountPercentage);
+*/
+
+/*
+let oldUser = true;
+const discountPercentage = 10;
+
+if(oldUser === true)
+{
+	const discountPercentage = 20;
+	console.log("Under Block value: "+discountPercentage);
+}
+console.log("Global value: "+discountPercentage);
+*/
+
+//Arrow functions
+
+/*
+
+let multiply= (x,y) =>{
+	console.log(x);
+	console.log(y);
+	return x*y;
+}
+console.log(multiply(4,8));
+
+*/
+
+/*
+
+let multiply= (x,y) =>{
+	console.log(x);
+	console.log(y);
+	return x*y;
+}
+console.log(multiply(4));
+
+*/
+
+/*
+
+let multiply= (x,y=2) =>{
+	console.log(x);
+	console.log(y);
+	return x*y;
+}
+console.log(multiply(4));
+
+*/
+
+/*
+
+let multiply= (x=4,y=2) =>{
+	console.log(x);
+	console.log(y);
+	return x*y;
+}
+console.log(multiply());
+
+*/
+
+/*
+
+let multiply= (x,y) =>{
+	console.log(x);
+	console.log(y);
+	return x+y;
+}
+console.log(multiply("hello"));
+
+*/
