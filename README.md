@@ -29,6 +29,8 @@ More codes will be committed from time to time for your help._**
    *AWS is the best cloud provider in the world. Learn all the why and how of AWS in this level.
 
    *learn to deploy your application on AWS ec2, save files in S3 and then configure your domain using route 53.
+   
+   ** Look at the project [Blog-Application](https://github.com/lucifer1198/Blog-Application) & [Chat-Application]() made using JS & its frameworks.**
   
   :tada: :fireworks:
 
