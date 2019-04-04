@@ -85,3 +85,150 @@ let multiply= (x,y) =>{
 }
 console.log(multiply("hello"));
 */
+
+// REST parameter
+// This works fine by printing the provided ID in the argument
+
+/*
+
+let allUserAddress = [];
+let storeUserAddress = (UserId,addressToStore) => {
+//console.log(UserId);
+//console.log(adressToStore);
+allUserAddress.push({"UserId":UserId,"userAddress":addressToStore});
+console.log(allUserAddress);
+return allUserAddress;
+}
+
+let firstAddress = {
+	"streetAddress":"2/60 Virat Khand, Gomti Nagar",
+	"landmark":"Near Virat Market",
+	"city":"Lucknow",
+	"state":"UP",
+	"pincode":226010
+}
+
+storeUserAddress(764034,firstAddress);
+
+*/
+// This prints UserId as UserID and UserAddress as useraddress
+/*
+
+let allUserAddress = [];
+
+let storeUserAddress = (UserId,addressToStore) => {
+//console.log(UserId);
+//console.log(adressToStore);
+allUserAddress.push({"UserId":"UserId","userAddress":"addressToStore"});
+console.log(allUserAddress);
+return allUserAddress;
+}
+
+let firstAddress = {
+	"streetAddress":"2/60 Virat Khand, Gomti Nagar",
+	"landmark":"Near Virat Market",
+	"city":"Lucknow",
+	"state":"UP",
+	"pincode":226010
+}
+storeUserAddress(764034,firstAddress);
+
+*/
+
+/* 
+
+let allUserAddress = [];
+
+let storeUserAddress = (UserId,...addressToStore) => {
+//console.log(UserId);
+//console.log(adressToStore);
+allUserAddress.push({"UserId":UserId,"userAddress":addressToStore});
+console.log(allUserAddress);
+return allUserAddress;
+}
+
+let firstAddress = {
+	"streetAddress":"Virat Khand, Gomti Nagar",
+	"landmark":"Near Virat Market",
+	"city":"Lucknow",
+	"state":"UP",
+	"pincode":226010
+}
+
+let secondAddress = {
+	"streetAddress":"Vineet Khand, Gomti Nagar",
+	"landmark":"Virat khand chauraha",
+	"city":"Lucknow",
+	"state":"UP",
+	"pincode":226010
+}
+
+storeUserAddress(764034,firstAddress,secondAddress);
+
+*/
+
+// Code for concat CSV
+/*
+
+let allPeopleIWantToInvite = [];
+
+let pushToPartyList = (...people) => {
+	let newPeopleArray = people;
+	allPeopleIWantToInvite = allPeopleIWantToInvite.concat(newPeopleArray);
+	console.log(allPeopleIWantToInvite)
+	return allPeopleIWantToInvite;
+}
+
+pushToPartyList("Aniket","Anmol","Vivek");
+pushToPartyList("Sayan","Rahul","Vijay");
+
+*/
+
+/*
+let allPeopleIWantToInvite = [];
+
+let pushToPartyList = (...people) => {
+	console.log(people);
+	let newPeopleArray = people;
+	allPeopleIWantToInvite = allPeopleIWantToInvite.concat(newPeopleArray);
+	console.log(allPeopleIWantToInvite)
+	return allPeopleIWantToInvite;
+}
+
+pushToPartyList("Aniket","Anmol","Vivek");
+//pushToPartyList("rtr","Rartrthul","Virtrtrtjay");
+pushToPartyList("Sayan","Rahul","Vijay");
+
+*/
+
+//SPREAD parameter
+/*
+
+let sum = (x,y,z) => {
+	return x+y+z;
+}
+const numbers=[1,2,3];
+console.log(sum(numbers[0],numbers[1],numbers[2]));
+
+*/
+/*
+
+let sum = (x,y,z) => {
+	console.log(x);
+	console.log(y);
+	console.log(z);
+	return x+y+z;
+}
+const numbers=[1,2,3];
+console.log(sum(...numbers));
+
+*/
+// Concating two arrays using SPREAD
+/*
+
+var a = [45,24];
+var b = [23,44];
+var c = [...a,...b];
+console.log(c)
+
+*/
