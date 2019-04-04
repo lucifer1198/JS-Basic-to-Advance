@@ -51,5 +51,4 @@ alert("No User with this E-Mail found.")
 var email = window.prompt("Enter your email")
 var password = window.prompt("Enter your password")
 checkLogin(email,password,users)
-
 //end a sample login function
