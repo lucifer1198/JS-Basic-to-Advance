@@ -232,3 +232,88 @@ var c = [...a,...b];
 console.log(c)
 
 */
+
+// Object literals
+/*
+let firstName = "Aniket";
+let lastName = "Singh";
+
+let nameOfPerson= {firstName,
+				lastName,
+				fullName(){
+				return firstName +" "+lastName;
+				}				
+}
+
+console.log(nameOfPerson.fullName());
+*/
+
+/*
+let actualPrice = 5000;
+let discount = 20;
+
+let discountedPrice = {
+	actualPrice,
+	discount, 
+	calculateDiscountedPrice(){
+	return actualPrice - ((discount*actualPrice)/100)
+	}
+}
+	
+	console.log(discountedPrice);
+	console.log(discountedPrice.calculateDiscountedPrice());
+	*/
+	
+// Passing Key Value through a variable name
+// This snippet prints --key: "Some value"--
+/*
+let key = "Some Key"
+let value = "Some value"
+let finalObject = {key : value}
+console.log(finalObject);
+*/
+// This Prints --Some Key: "Some value"--
+/*let key = "Some Key"
+let value = "Some value"
+let finalObject = {[key] : value}
+console.log(finalObject);
+*/
+
+// template literals
+/*
+let firstSentence = "This is the first Sentence"
+let secondSentence = "This is the second sentence"
+
+console.log(`${firstSentence}.${secondSentence}`)
+*/
+/*
+function generateEmail(name,message)
+{
+var generateMessage= `Hi,${name},\n 
+ We have a Message for you: ${message}\n
+ @Copyright to aniket`
+return generateMessage
+}
+
+var result = generateEmail("Aniket","How are you?")
+console.log(result)
+*/
+// evaluating an expression inside the curly braces
+/*
+function generateEmail(firstName,lastname,message)
+{
+var generateMessage= `Hi,${firstName+" "+lastname}\n 
+ We have a Message for you: ${message}\n
+ @Copyright to aniket`
+return generateMessage
+}
+
+var result = generateEmail("Aniket","Singh","How are you?")
+console.log(result)
+*/
+
+//escaping or ignoring the curly braces in the string
+/*
+let someParagraph= `Hello, this is just the text. See the object \${objectShow}`
+console.log(someParagraph)
+*/
