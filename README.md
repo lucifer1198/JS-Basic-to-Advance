@@ -30,7 +30,7 @@ More codes will be committed from time to time for your help._**
 
    *learn to deploy your application on AWS ec2, save files in S3 and then configure your domain using route 53.
    
-   ** Look at the project [Blog-Application](https://github.com/lucifer1198/Blog-Application) & [Chat-Application](https://github.com/lucifer1198/Chat-Application) made using JS & its frameworks.**
+   **_Look at the project [Blog-Application](https://github.com/lucifer1198/Blog-Application) & [Chat-Application](https://github.com/lucifer1198/Chat-Application) made using JS & its frameworks._**
   
   :tada: :fireworks:
 
