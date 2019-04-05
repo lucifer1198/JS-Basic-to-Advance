@@ -1,0 +1,19 @@
+/*p{
+color: red;
+font-size: 22px;
+}
+h1{
+color: blue;
+}*/
+
+.myClass{
+	color: green;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+#myHeading{
+	color: blue;
+	font-size: 19px;
+	font-weight: bolder;
+}
