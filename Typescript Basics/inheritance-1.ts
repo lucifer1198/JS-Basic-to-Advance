@@ -17,12 +17,13 @@ class AnimalGen {
 }// end class 
 
 class Dog extends AnimalGen{
-
+    constructor(public limbs: number, public typeOfAnimal: string, public diet: string){
+        super(limbs,typeOfAnimal,diet);
+    }
     canBark=() =>{
         return true;
     }
-
-
 }
 
-
+let germanShepherd = new Dog(4,"Mammal","omnivore");
+console.log(germanShepherd.canBark());
