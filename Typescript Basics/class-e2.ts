@@ -1,6 +1,5 @@
 // defining a class
 class Ani_mal {
-
     constructor(public limbs: number, public typeOfAnimal: string, public diet: string) {
         this.limbs = limbs;
         this.typeOfAnimal = typeOfAnimal;
@@ -17,4 +16,4 @@ class Ani_mal {
 
 let ti_ger = new Ani_mal(4, "mammal", "carnivore")
 let sna_ke = new Ani_mal(0, "reptile", "carnivore")
-alert(ti_ger.getDietType())
+console.log(ti_ger.getDietType())

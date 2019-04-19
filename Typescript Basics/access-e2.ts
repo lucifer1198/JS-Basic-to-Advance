@@ -16,5 +16,5 @@ class Animal {
 
 
 let tiger = new Animal(4, "mammal", "carnivore")
-let snake = new Animal(0, "reptile", "carnivore")
-alert(tiger.getDietType())
+let snake = new Animal(0, "reptile", "omnivore")
+console.log(snake.getDietType())
