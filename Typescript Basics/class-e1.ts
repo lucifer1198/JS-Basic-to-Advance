@@ -1,5 +1,5 @@
 // defining a class
-class MobilePhone {
+class Mobile_Phone {
 
     screenSize : string;
     RAM : string;
@@ -26,7 +26,7 @@ class MobilePhone {
     }// end class 
     
     
-    let onePlus5t = new MobilePhone("6 inch","6 GB","Snapdragon",20,3300,"Android")
+    let onePlus_5t = new Mobile_Phone("6 inch","6 GB","Snapdragon",20,3300,"Android")
     
-    let os = onePlus5t.getOperatingSystem()
-    alert(os)
+    let o_s = onePlus_5t.getOperatingSystem()
+    alert(o_s)

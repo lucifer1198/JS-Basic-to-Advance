@@ -1,5 +1,5 @@
 // defining a class
-class Animal {
+class Ani_mal {
 
     constructor(public limbs: number, public typeOfAnimal: string, public diet: string) {
         this.limbs = limbs;
@@ -15,6 +15,6 @@ class Animal {
 }// end class 
 
 
-let tiger = new Animal(4, "mammal", "carnivore")
-let snake = new Animal(0, "reptile", "carnivore")
-alert(tiger.getDietType())
+let ti_ger = new Ani_mal(4, "mammal", "carnivore")
+let sna_ke = new Ani_mal(0, "reptile", "carnivore")
+alert(ti_ger.getDietType())
