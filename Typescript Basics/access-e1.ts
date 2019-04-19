@@ -35,6 +35,6 @@ class MobilePhone {
     // Showing you guys the use of accessors(getters & Setters)
     let onePlus5t = new MobilePhone("6 inch","6 GB","Snapdragon",20,3300,"Android")
      
-console.log(onePlus5t.getCamera())
+ console.log(onePlus5t.getCamera())
 onePlus5t.setCamera(25);
 console.log(onePlus5t.getCamera())
