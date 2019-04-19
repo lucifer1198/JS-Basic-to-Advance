@@ -1,12 +1,12 @@
 // defining a class
 class MobilePhone {
 
-    screenSize : string;
-    RAM : string;
-    processor : string;
-    camera:number;
-    battery:number;
-    operatingSystem : string
+    private screenSize : string;
+    private RAM : string;
+    private processor : string;
+    private camera:number;
+    private battery:number;
+    private operatingSystem : string
     
     
     constructor (screenSize : string,RAM : string,processor : string,camera:number,battery:number,operatingSystem : string){
@@ -22,11 +22,19 @@ class MobilePhone {
     getOperatingSystem = ()=>{
         return this.operatingSystem
     }
+    getCamera = ()=>{
+        return this.camera;
+    }
+
+    setCamera = (pixels:number) =>{
+        this.camera = pixels;
+    }
     
     }// end class 
     
-    
+    // Showing you guys the use of accessors(getters & Setters)
     let onePlus5t = new MobilePhone("6 inch","6 GB","Snapdragon",20,3300,"Android")
-    
-    let os = onePlus5t.getOperatingSystem()
-    alert(os)
+     
+console.log(onePlus5t.getCamera())
+onePlus5t.setCamera(25);
+console.log(onePlus5t.getCamera())
